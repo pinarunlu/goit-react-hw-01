@@ -1,0 +1,16 @@
+/* src/components/FriendList/FriendList.module.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.friendList {
+    display: flex;
+
+    list-style-type: none;
+  
+    margin-left: 470px;
+    text-align: center;
+    width: 300px;
+    padding: 0;
+    gap: 10px;
+}
