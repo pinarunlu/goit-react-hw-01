@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile {
+    margin: auto;
+    border-radius: 5px;
+    border-width: 1.5px;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 0 0;
+    text-align: center;
+  width: 300px;
+
+    
+}
+
+.avatar {
+    width: 50%;
+    border-radius: 50%;
+    background-color: rgb(42, 42, 42);
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    margin: 0
+}
+
+.tag,
+.location {
+    color: rgb(144, 144, 144);
+    margin: 0 0 6px 0;
+    letter-spacing: 1px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+}
+
+.item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    border-color: rgb(136, 136, 136);
+    border-style: solid;
+}
+
+.item:first-child {
+    border-width: 1.5px 0 0 0;
+}
+
+.item:nth-child(2) {
+    border-width: 1.5px 1.5px 0 1.5px;
+
+}
+
+.item:last-child {
+    border-width: 1.5px 0 0 0;
+}
+
+.followers,
+.views,
+.likes {
+    padding: 10px 0 0 0;
+    display: block;
+
+
+}
+.quantity {
+    font-weight: bold;
+  
+}
+.label {
+    margin-bottom: 5px;
+}
+
