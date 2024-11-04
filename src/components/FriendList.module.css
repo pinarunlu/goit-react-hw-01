@@ -5,12 +5,10 @@ body {
 
 .friendList {
     display: flex;
-
     list-style-type: none;
-  
-    margin-left: 470px;
+    margin: auto;
     text-align: center;
-    width: 300px;
+    width: 400px;
     padding: 0;
-    gap: 10px;
+    gap: 8px;
 }
